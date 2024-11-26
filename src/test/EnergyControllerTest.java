@@ -61,4 +61,3 @@ class EnergyControllerTest {
         assertFalse(source.isOn());
     }
 }
-
