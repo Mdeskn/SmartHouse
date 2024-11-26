@@ -59,10 +59,11 @@ The **Smart House** project offers a comprehensive simulation of energy supply a
   - Device Management in `Main.java`.
   - `ApplianceController` and its related test cases.
   - Appliance-related functionalities in `FileHandler`.
+  - `Logger.java`.
 - **Testing**:
   - `ApplianceControllerTest.java`.
   - `FileHandlerTest.java` (appliance-specific).
-  - `Logger.java`.
+  - `LoggerTest.java`.
 
 ### Zahra Mahdion 7221957
 - **Modules**:
