@@ -128,4 +128,3 @@ public class EnergyController {
         return index > 0 && index <= energySources.size();
     }
 }
-
