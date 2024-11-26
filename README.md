@@ -121,6 +121,9 @@ Add screenshots showcasing:
 - Real-time simulation results.
 - Successful unit test execution.
 - CLI interface in action.
+- UML Diagram
+  <img width="1106" alt="Screenshot 2024-11-27 at 00 07 11" src="https://github.com/user-attachments/assets/f6269ef9-5e19-46f2-8885-9fe34aaa6254">
+
 
 ## Link to demo
 ---
