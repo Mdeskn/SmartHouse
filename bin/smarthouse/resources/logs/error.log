@@ -1,0 +1,10 @@
+[2024-11-24 02:20:18] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'
+[2024-11-24 02:22:50] Error in TestContext: Test Exception
+[2024-11-24 02:22:50] Error in CustomContext: Custom Error Message
+[2024-11-24 02:22:50] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'
+[2024-11-24 03:08:38] Error in TestContext: Test Exception
+[2024-11-24 03:08:38] Error in CustomContext: Custom Error Message
+[2024-11-24 03:08:38] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'
+[2024-11-26 18:38:22] Error in TestContext: Test Exception
+[2024-11-26 18:38:22] Error in CustomContext: Custom Error Message
+[2024-11-26 18:38:22] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'

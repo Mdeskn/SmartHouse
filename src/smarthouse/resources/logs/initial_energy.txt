@@ -1,0 +1,9 @@
+# Energy Sources
+SolarSource:500:50
+WindSource:300:30
+WaterSource:1000:20
+
+# Appliances
+Light:60
+Television:150
+AirConditioner:500
