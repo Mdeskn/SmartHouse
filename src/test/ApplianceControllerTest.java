@@ -27,4 +27,3 @@ class ApplianceControllerTest {
         Assertions.assertEquals(0, controller.getAppliances().size());
     }
 }
-
