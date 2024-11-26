@@ -123,6 +123,9 @@ Add screenshots showcasing:
 - CLI interface in action.
 - UML Diagram
   <img width="1106" alt="Screenshot 2024-11-27 at 00 07 11" src="https://github.com/user-attachments/assets/f6269ef9-5e19-46f2-8885-9fe34aaa6254">
+- Component Diagram
+  ![ZLN1RK~1](https://github.com/user-attachments/assets/f78f7f1f-fa51-4f3a-b17f-4fab2db2be68)
+
 
 
 ## Link to demo
