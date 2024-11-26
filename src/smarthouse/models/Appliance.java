@@ -35,4 +35,3 @@ public abstract class Appliance {
     // Abstract method to be implemented by specific appliances
     public abstract String getType();
 }
-
