@@ -22,4 +22,3 @@ class FileHandlerTest {
         Assertions.assertFalse(appliances.isEmpty());
     }
 }
-

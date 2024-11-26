@@ -18,4 +18,3 @@ module SmartHouse {
 
     opens test to org.junit.platform.commons;
 }
-

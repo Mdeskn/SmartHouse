@@ -16,4 +16,3 @@ class ResourceLockTest {
         assertFalse(lock.isLocked(), "Lock should be unlocked");
     }
 }
-

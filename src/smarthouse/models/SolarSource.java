@@ -10,4 +10,3 @@ public class SolarSource extends EnergySource {
         return "Solar";
     }
 }
-

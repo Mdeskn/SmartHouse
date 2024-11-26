@@ -42,4 +42,3 @@ public abstract class EnergySource {
 
     public abstract String getType();
 }
-

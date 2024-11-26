@@ -20,4 +20,3 @@ class TaskSchedulerTest {
         assertDoesNotThrow(taskScheduler::shutdown);
     }
 }
-

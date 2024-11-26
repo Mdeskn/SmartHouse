@@ -10,4 +10,3 @@ public class AirConditioner extends Appliance {
         return "Air Conditioner";
     }
 }
-

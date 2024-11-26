@@ -10,4 +10,3 @@ public class WindSource extends EnergySource {
         return "Wind";
     }
 }
-

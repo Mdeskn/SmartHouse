@@ -1,4 +1,3 @@
-
 package smarthouse.models;
 
 public class Light extends Appliance {

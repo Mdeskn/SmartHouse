@@ -19,4 +19,3 @@ class LoggerTest {
         Assertions.assertTrue(logs.isEmpty());
     }
 }
-

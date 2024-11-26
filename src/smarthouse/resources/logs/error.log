@@ -8,3 +8,6 @@
 [2024-11-26 18:38:22] Error in TestContext: Test Exception
 [2024-11-26 18:38:22] Error in CustomContext: Custom Error Message
 [2024-11-26 18:38:22] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'
+[2024-11-26 22:59:02] Error in TestContext: Test Exception
+[2024-11-26 22:59:02] Error in CustomContext: Custom Error Message
+[2024-11-26 22:59:02] File Parsing Error in 'TestFile.txt': Invalid line -> 'InvalidLineContent'

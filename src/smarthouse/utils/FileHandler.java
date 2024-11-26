@@ -66,3 +66,61 @@ public class FileHandler {
         }
         return energySources;
     }
+
+    // Load appliances from file
+    public static List<Appliance> loadAppliances() {
+        List<Appliance> appliances = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(INITIAL_FILE_PATH))) {
+            String line;
+            boolean readingAppliances = false;
+
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+
+                // Switch to appliances section
+                if (line.equalsIgnoreCase("# Appliances")) {
+                    readingAppliances = true;
+                    continue;
+                }
+
+                // Skip comments and empty lines
+                if (line.isEmpty() || line.startsWith("#")) continue;
+
+                if (readingAppliances) {
+                    String[] parts = line.split(":");
+                    if (parts.length != 2) {
+                        ExceptionHandler.handleFileParsingError("initial_energy.txt", line);
+                        continue;
+                    }
+                    try {
+                        String name = parts[0].trim();
+                        double energyConsumption = Double.parseDouble(parts[1].trim());
+
+                        Appliance appliance;
+                        switch (name) {
+                            case "Light" -> appliance = new Light(name, energyConsumption);
+                            case "Television" -> appliance = new Television(name, energyConsumption);
+                            case "AirConditioner" -> appliance = new AirConditioner(name, energyConsumption);
+                            default -> {
+                                // Dynamically create a custom appliance
+                                appliance = new Appliance(name, energyConsumption) {
+                                    @Override
+                                    public String getType() {
+                                        return "Custom";
+                                    }
+                                };
+                            }
+                        }
+                        appliances.add(appliance);
+                        System.out.printf("Loaded %s: Consumption=%.2f%n", appliance.getType(), energyConsumption);
+                    } catch (NumberFormatException e) {
+                        ExceptionHandler.handleException("FileHandler.loadAppliances", e);
+                    }
+                }
+            }
+        } catch (IOException e) {
+            ExceptionHandler.handleException("FileHandler.loadAppliances", e);
+        }
+        return appliances;
+    }
+}
