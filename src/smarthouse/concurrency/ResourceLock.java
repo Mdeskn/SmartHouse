@@ -12,7 +12,5 @@ public class ResourceLock {
     }
 
     public void unlock() {
-        locked = false;
-    }
+        locked = false;    }
 }
-
