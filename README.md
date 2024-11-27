@@ -119,8 +119,11 @@ git clone https://github.com/Mdeskn/SmartHouse.git
 ## Screenshots
 Add screenshots showcasing:
 - Real-time simulation results.
+  ![Screenshot 2024-11-27 010110](https://github.com/user-attachments/assets/d67d9ac2-585b-4f7f-bdbb-76c2cb46ea1c)
 - Successful unit test execution.
+  ![Screenshot 2024-11-27 010018](https://github.com/user-attachments/assets/7e5285b4-75c0-4ef5-a546-1ce45ce6de50)
 - CLI interface in action.
+  ![Screenshot 2024-11-27 005916](https://github.com/user-attachments/assets/9a1c57b7-8137-47f0-9fbc-eb50a1b35ceb)
 - UML Diagram
   <img width="1106" alt="Screenshot 2024-11-27 at 00 07 11" src="https://github.com/user-attachments/assets/f6269ef9-5e19-46f2-8885-9fe34aaa6254">
 - Component Diagram
@@ -129,6 +132,7 @@ Add screenshots showcasing:
 
 
 ## Link to demo
+## Link to Presentation file
 ---
 
 ## Acknowledgments
