@@ -8,39 +8,34 @@ The **Smart House** project offers a comprehensive simulation of energy supply a
 ## Key Features and Requirements
 
 ### Concurrency and Interactive Features
-- An interactive user interface (CLI) enables streamlined management of devices and energy sources.
-- Real-time simulation showcases the simultaneous energy generation and consumption process, with thread-safe concurrency ensuring stability.
+- An interactive user interface (CLI) implemented in `Main.java` enables streamlined management of devices and energy sources.
+- Real-time simulation in `HouseManager` showcases the simultaneous energy generation and consumption process, with thread-safe concurrency ensured by the `TaskScheduler` class.
 - Advanced task scheduling facilitates dynamic operations, allowing concurrent energy resource allocation and device management without conflict.
 
 ### Simulation and Logs
-- Detailed simulation logs track energy source states, device consumption, and runtime events, providing valuable insights.
-- Exception handling safeguards the system, ensuring it remains resilient against runtime errors and interruptions.
+- Detailed simulation logs are captured in the `Logger` class, tracking energy source states, device consumption, and runtime events, providing valuable insights.
+- Exception handling through the `ExceptionHandler` class safeguards the system, ensuring it remains resilient against runtime errors and interruptions.
 
 ### Initial Settings
-- Users can dynamically upload and load initial settings for devices and energy sources through the system’s file-handling capabilities.
+- Users can dynamically upload and load initial settings for devices and energy sources through file-handling capabilities in the `FileHandler` class.
 
 ### Unit Testing
 - Extensive unit tests validate the functionality of each subsystem, ensuring the robustness and reliability of the entire project.
 
 ### Simulation of Energy and Device Management
-- The simulation effectively models energy generation from Solar, Wind, and Water sources, each with unique regeneration rates.
-- Devices like Lights, Air Conditioners, and Televisions dynamically consume energy, mimicking real-world behavior.
+- The simulation, implemented in `HouseManager` and supported by the `EnergyController` and `ApplianceController`, effectively models energy generation from Solar, Wind, and Water sources, each with unique regeneration rates.
+- Devices like Lights (`Light.java`), Air Conditioners (`AirConditioner.java`), and Televisions (`Television.java`) dynamically consume energy, mimicking real-world behavior.
 - The system balances energy demand and supply, dynamically allocating energy resources to active devices.
 
-### User Interaction
-- A Command Line Interface (CLI) offers an intuitive way to manage devices and energy sources.
-- Interactive menus guide users through adding, removing, and configuring smart devices and energy resources.
-
 ### Logging and Error Handling
-- **Logger**: Captures simulation logs, tracks errors, and maintains detailed operational records.
+- **Logger**: Implemented in `Logger.java` to capture simulation logs, track errors, and maintain detailed operational records.
 - **ExceptionHandler**: Handles runtime errors effectively, providing a seamless user experience even in unexpected scenarios.
 
 ### File Handling
-- Device and energy source configurations are initialized from `initial_energy.txt`, supporting user-defined setups for maximum flexibility.
+- Device and energy source configurations are initialized from `initial_energy.txt`, supporting user-defined setups for maximum flexibility via the `FileHandler` class.
 
 ### Unit Testing
-- A dedicated test suite validates the functionality of each module, ensuring high-quality code and robust system behavior.
-
+- A dedicated test suite, including `HouseManagerTest.java`, `EnergyControllerTest.java`, and `ApplianceControllerTest.java`, validates the functionality of each module, ensuring high-quality code and robust system behavior.
 ---
 
 ## System Architecture
