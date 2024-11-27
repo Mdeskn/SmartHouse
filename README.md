@@ -126,12 +126,13 @@ Add screenshots showcasing:
 
 
 
-## Link to demo
-## Link to Presentation file
+## [Link to demo](https://fhdoprod-my.sharepoint.com/:v:/g/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/EQi5UlQof0lGmgYNFzpQsnMBxxReJgLjj-AOApW1YXw9xw?e=wlCq9n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+## [Link to Presentation file](https://fhdoprod-my.sharepoint.com/:p:/r/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/Documents/javapresentation.pptx?d=w8dbb2060138245fa9dcf8fa095285706&csf=1&web=1&e=N8Hrgd)
+## [Link to requirement file](https://fhdoprod-my.sharepoint.com/:w:/g/personal/maede_eskandariborujerdi001_stud_fh-dortmund_de/EQdTqnDo31ROsS_jM3fOYMkBsGPUHaKOcjtfWrmx4tYrag?e=gjq9TB)
 ---
 
 ## Acknowledgments
-This project was developed as part of the Capstone project for Dr. Prof. Galyna Tabunshchyk’s course.
+This project was developed as the Capstone project for Dr. Prof. Galyna Tabunshchyk’s course.
 
 **Team Members**:
 - **Vida Bahrami** - 7221533
