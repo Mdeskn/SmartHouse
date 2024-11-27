@@ -16,12 +16,6 @@ The **Smart House** project offers a comprehensive simulation of energy supply a
 - Detailed simulation logs are captured in the `Logger` class, tracking energy source states, device consumption, and runtime events, providing valuable insights.
 - Exception handling through the `ExceptionHandler` class safeguards the system, ensuring it remains resilient against runtime errors and interruptions.
 
-### Initial Settings
-- Users can dynamically upload and load initial settings for devices and energy sources through file-handling capabilities in the `FileHandler` class.
-
-### Unit Testing
-- Extensive unit tests validate the functionality of each subsystem, ensuring the robustness and reliability of the entire project.
-
 ### Simulation of Energy and Device Management
 - The simulation, implemented in `HouseManager` and supported by the `EnergyController` and `ApplianceController`, effectively models energy generation from Solar, Wind, and Water sources, each with unique regeneration rates.
 - Devices like Lights (`Light.java`), Air Conditioners (`AirConditioner.java`), and Televisions (`Television.java`) dynamically consume energy, mimicking real-world behavior.
