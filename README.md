@@ -80,7 +80,6 @@ The **Smart House** project offers a comprehensive simulation of energy supply a
 - **Testing**:
   - `HouseManagerTest.java`.
   - `TaskSchedulerTest.java`.
-  - `LoggerTest.java`.
   - `ExceptionHandlerTest.java`.
 
 ---
