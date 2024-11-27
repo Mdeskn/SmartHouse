@@ -12,10 +12,6 @@ The **Smart House** project offers a comprehensive simulation of energy supply a
 - Real-time simulation in `HouseManager` showcases the simultaneous energy generation and consumption process, with thread-safe concurrency ensured by the `TaskScheduler` class.
 - Advanced task scheduling facilitates dynamic operations, allowing concurrent energy resource allocation and device management without conflict.
 
-### Simulation and Logs
-- Detailed simulation logs are captured in the `Logger` class, tracking energy source states, device consumption, and runtime events, providing valuable insights.
-- Exception handling through the `ExceptionHandler` class safeguards the system, ensuring it remains resilient against runtime errors and interruptions.
-
 ### Simulation of Energy and Device Management
 - The simulation, implemented in `HouseManager` and supported by the `EnergyController` and `ApplianceController`, effectively models energy generation from Solar, Wind, and Water sources, each with unique regeneration rates.
 - Devices like Lights (`Light.java`), Air Conditioners (`AirConditioner.java`), and Televisions (`Television.java`) dynamically consume energy, mimicking real-world behavior.
